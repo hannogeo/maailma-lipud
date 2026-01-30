@@ -263,22 +263,27 @@ riigid = {
     'Guinea': {
         'lipp': 'lipud/guinea.png',
         'piirkond': 'Aafrika',
+        'fakt': 'Guinea on tuntud ka kui Guinea-Conakry, et eristada seda Ekvatoriaal-Guineast ja Guinea-Bissaust.',
     },
     'Guinea-Bissau': {
         'lipp': 'lipud/guineabissau.png',
         'piirkond': 'Aafrika',
+        'fakt': 'Bijagósi saarestik asub Guinea-Bissaus ja koosneb ligi 100 saarest.',
     },
     'Guyana': {
         'lipp': 'lipud/guyana.png',
         'piirkond': 'Lõuna-Ameerika',
+        'fakt': 'Guyana on üks 27 riigist, millel pole ühtegi UNESCO maailmapärandi nimistusse kuuluvat objekti.',
     },
     'Haiti': {
         'lipp': 'lipud/haiti.png',
         'piirkond': 'Põhja-Ameerika',
+        'fakt': 'Venezuela lipp loodi Haitil 12. märtsil 1806.',
     },
     'Hiina': {
         'lipp': 'lipud/china.png',
         'piirkond': 'Aasia',
+        'fakt': 'Vana-Hiinas kandsid sõdurid mõnikord paberist rüüd.',
     },
     'Hispaania': {
         'lipp': 'lipud/spain.png',
