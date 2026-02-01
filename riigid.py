@@ -288,66 +288,82 @@ riigid = {
     'Hispaania': {
         'lipp': 'lipud/spain.png',
         'piirkond': 'Euroopa',
+        'fakt': 'Hispaanias asuvat Sagrada Familiat on ehitatud üle saja aasta.',
     },
     'Holland': {
         'lipp': 'lipud/netherlands.png',
         'piirkond': 'Euroopa',
+        'fakt': 'Hollandlased on maailma pikimad inimesed. Meeste keskmine pikkus on seal 183 cm.',
     },
     'Honduras': {
         'lipp': 'lipud/honduras.png',
         'piirkond': 'Põhja-Ameerika',
+        'fakt': 'Maailma suuruselt teine korallrahu asub Hondurases.',
     },
     'Horvaatia': {
         'lipp': 'lipud/croatia.png',
         'piirkond': 'Euroopa',
+        'fakt': 'Horvaatia ilu on hästi kaitstud 8 rahvuspargi, 11 looduspargi ja 2 looduskaitsealaga.',
     },
     'Ida-Timor': {
         'lipp': 'lipud/timorleste.png',
         'piirkond': 'Aasia',
+        'fakt': 'Riigi nimi tähendab tegelikult ida-ida, kuna Timor on indoneesia keeles ida.',
     },
     'Iirimaa': {
         'lipp': 'lipud/ireland.png',
         'piirkond': 'Euroopa',
+        'fakt': 'Väljaspool Iirimaad elab umbes 70-80 miljonit iiri päritolu inimest.',
     },
     'India': {
         'lipp': 'lipud/india.png',
         'piirkond': 'Aasia',
+        'fakt': 'India on maailma rahvarohkeim riik, kus elab umbes 1,45 miljardit inimest.',
     },
     'Indoneesia': {
         'lipp': 'lipud/indonesia.png',
         'piirkond': 'Aasia',
+        'fakt': 'Indoneesial ja Monacol on peaaegu identsed lipud, ainus erinevus on mõõtmetes.',
     },
     'Iraak': {
         'lipp': 'lipud/iraq.png',
         'piirkond': 'Aasia',
+        'fakt': 'Läbi Iraagi kulges ajalooline kaubatee Siiditee.',
     },
     'Iraan': {
         'lipp': 'lipud/iran.png',
         'piirkond': 'Aasia',
+        'fakt': '2007. aastal pidasid Iraani ametnikud spioneerimise eest kinni 14 oravat.'
     },
     'Island': {
         'lipp': 'lipud/iceland.png',
         'piirkond': 'Euroopa',
+        'fakt': 'Islandil on üle 130 vulkaani, millest mõnda peetakse maailma aktiivseimate hulka.',
     },
     'Itaalia': {
         'lipp': 'lipud/italy.png',
         'piirkond': 'Euroopa',
+        'fakt': 'Itaalias on enim UNESCO maailmapärandi nimistusse kuuluvaid paiku, üle 55.',
     },
     'Jaapan': {
         'lipp': 'lipud/japan.png',
         'piirkond': 'Aasia',
+        'fakt': 'Hinnanguliselt elab Tokyos 11% Jaapani elanikest.',
     },
     'Jamaica': {
         'lipp': 'lipud/jamaica.png',
         'piirkond': 'Põhja-Ameerika',
+        'fakt': 'Jamaica lipp on ainus maailmas, millel pole sinist, valget ega punast värvi.',
     },
     'Jeemen': {
         'lipp': 'lipud/yemen.png',
         'piirkond': 'Aasia',
+        'fakt': 'Jeemenit on pikka aega peetud Lähis-Ida vaeseimaks riigiks.',
     },
     'Jordaania': {
         'lipp': 'lipud/jordan.png',
         'piirkond': 'Aasia',
+        'fakt': 'Maa madalaim punkt asub Jordaanias, Surnumeri, mis asub 420 meetrit merepinnast allpool.',
     },
     'Kambodža': {
         'lipp': 'lipud/cambodia.png',
