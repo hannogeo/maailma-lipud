@@ -7,13 +7,15 @@ root = tk.Tk() # aken
 root.title('Maailma lipud') # akna nimi
 root.geometry('700x500') # akna suurus
 
-seaded_fr = tk.Frame(root) # seaded frame
-mang_fr = tk.Frame(root) # mang frame
-fakt_fr = tk.Frame(root) # fakt frame
+# seaded, mang, fakt
+seaded_fr = tk.Frame(root)
+mang_fr = tk.Frame(root)
+fakt_fr = tk.Frame(root)
 
-seaded_fr.place(relwidth=1, relheight=1) # seaded frame suurus
-mang_fr.place(relwidth=1, relheight=1) # mang frame suurus
-fakt_fr.place(relwidth=1, relheight=1) # fakt frame suurus
+# frame suurused
+seaded_fr.place(relwidth=1, relheight=1)
+mang_fr.place(relwidth=1, relheight=1)
+fakt_fr.place(relwidth=1, relheight=1)
 
 # UUE PILDI LOOMINE
 def show_frame(frame):
@@ -60,24 +62,7 @@ raundid_menu.pack(side='left')
 praegune_raund = 0
 max_raundid = 0
 
-#-------------------------------
-# FUNKTSIOONID RANDOM LIPU JAOKS
-#-------------------------------
-
-# LIPU VALIMINE
-def random_riik():
-    valitud_piirkond = piirkond_var.get()
-
-    if valitud_piirkond == 'Maailm':
-        sobivad_riigid = list(riigid.keys())
-    else:
-        sobivad_riigid = [
-            riik
-            for riik, andmed in riigid.items()
-            if andmed['piirkond'] == valitud_piirkond
-        ]
-
-    return random.choice(sobivad_riigid)
+kasutamata_riigid = []
 
 raundi_label = tk.Label(
     mang_fr,
@@ -87,6 +72,8 @@ raundi_label = tk.Label(
 raundi_label.pack(pady=(10, 0))
 
 # LIPU NAITAMINE
+
+# ekraanile ilmub pillow abil lipp
 def naita_lipp(riik):
     lipp_file = riigid[riik]['lipp']
 
@@ -106,8 +93,9 @@ def naita_lipp(riik):
 flag_label = tk.Label(mang_fr)
 flag_label.pack(pady=40)
 
-# ALUSTA
+# KONTROLLI VASTUS
 
+# kontrollib kas vastus oli õige ning avab fakt_fr
 def kontrolli_vastus(valik, oige):
     if valik == oige:
         tulemus_label.config(
@@ -136,11 +124,18 @@ def kontrolli_vastus(valik, oige):
 
     show_frame(fakt_fr)
 
+# ALUSTA MÄNG
+
+# loob mängu alustamise funktsiooni ning sisaldab kõike vajalikku (raundide loendamine, mang_fr ilmumine, ...)
 def alusta_mang():
-    global praegune_raund, max_raundid
+    global praegune_raund, max_raundid, kasutamata_riigid
 
     if praegune_raund == 0:
         max_raundid = raundid_var.get()
+
+        piirkond = piirkond_var.get()
+        kasutamata_riigid = riigid_piirkonnas(piirkond)
+        random.shuffle(kasutamata_riigid)
 
     if praegune_raund >= max_raundid:
         show_frame(seaded_fr)
@@ -160,7 +155,7 @@ def alusta_mang():
 
     piirkond = piirkond_var.get()
 
-    oige_riik = random_riik()
+    oige_riik = kasutamata_riigid.pop()
     naita_lipp(oige_riik)
 
     sobivad_riigid = riigid_piirkonnas(piirkond)
@@ -182,14 +177,13 @@ def alusta_mang():
 alusta_nupp = tk.Button(seaded_fr, text='Alusta', command=alusta_mang)
 alusta_nupp.pack(pady=50)
 
-root.bind('<Return>', lambda event: alusta_mang())
-
 #--------
 # MANG_FR
 #--------
 
 vastuse_nupud = []
 
+# ilmuvad 3 vastusevarianti nuppudena
 for i in range(3):
     btn = tk.Button(
         mang_fr,
@@ -200,6 +194,7 @@ for i in range(3):
     btn.pack(pady=5)
     vastuse_nupud.append(btn)
 
+# vajalik selleks et kõik vastusevariandid oleks valitud maailmajaost
 def riigid_piirkonnas(piirkond):
     if piirkond == 'Maailm':
         return list(riigid.keys())
@@ -209,10 +204,11 @@ def riigid_piirkonnas(piirkond):
         if andmed['piirkond'] == piirkond
     ]
 
-#-------
-#FAKT_FR
-#-------
+#--------
+# FAKT_FR
+#--------
 
+# kas oli õige või vale
 tulemus_label = tk.Label(
     fakt_fr,
     text='',
@@ -220,6 +216,7 @@ tulemus_label = tk.Label(
 )
 tulemus_label.pack(pady=(50, 0))
 
+# õige vastus
 oige_vastus_label = tk.Label(
     fakt_fr,
     text='',
@@ -227,22 +224,26 @@ oige_vastus_label = tk.Label(
 )
 oige_vastus_label.pack(pady=(50, 0))
 
+# peale seda ilmub fakt
 fakt_pealkiri_label = tk.Label(
     fakt_fr,
     text='',
-    font=('Arial', 12)
+    font=('Arial', 12),
+    fg="#676767"
 )
 fakt_pealkiri_label.pack(pady=(50, 0))
 
+# huvitav fakt riigi kohta
 fakt_label = tk.Label(
     fakt_fr,
     text='',
     font=('Arial', 12),
-    wraplength=600,
+    wraplength=500,
     justify='center'
 )
 fakt_label.pack(pady=(10, 20))
 
+# nupp millele vajutades ilmub uus raund
 jargmine_nupp = tk.Button(
     fakt_fr,
     text='Järgmine',
@@ -251,5 +252,6 @@ jargmine_nupp = tk.Button(
 )
 jargmine_nupp.pack(pady=30)
 
+# vajalik akna ilmumiseks
 show_frame(seaded_fr)
 root.mainloop()

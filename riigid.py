@@ -368,70 +368,87 @@ riigid = {
     'Kambodža': {
         'lipp': 'lipud/cambodia.png',
         'piirkond': 'Aasia',
+        'fakt': 'Angkor Wat on maailma suurim religioosne ehitis — selle pindala on 1 626 000 m²',
     },
     'Kamerun': {
         'lipp': 'lipud/cameroon.png',
         'piirkond': 'Aafrika',
+        'fakt': 'Maailma suurim konn, 3 kg kaaluv hiidkonn, elab Kamerunis.',
     },
     'Kanada': {
         'lipp': 'lipud/canada.png',
         'piirkond': 'Põhja-Ameerika',
+        'fakt': 'Korvpalli lõi kanadalane James Naismith 1891. aastal.',
     },
     'Kasahstan': {
         'lipp': 'lipud/kazakhstan.png',
         'piirkond': 'Aasia',
+        'fakt': 'Baikonuri kosmodroom, maailma esimene ja suurim tegutsev kosmosesüstikute rajatis, asub Kasahstanis.',
     },
     'Katar': {
         'lipp': 'lipud/qatar.png',
         'piirkond': 'Aasia',
+        'fakt': 'Katari Hamadi lennujaama terminalihoones on hiiglaslik seitsmemeetrine kaisukaru.',
     },
     'Keenia': {
         'lipp': 'lipud/kenya.png',
         'piirkond': 'Aafrika',
+        'fakt': 'Keeniast pärit Kalenjinid on jooksualadel koju viinud ligi 50 olümpiakulda.', 
     },
     'Kesk-Aafrika Vabariik': {
         'lipp': 'lipud/car.png',
         'piirkond': 'Aafrika',
+        'fakt': 'Riigis elab 597 tuvastatud liblikaliiki.',
     },
     'Kiribati': {
         'lipp': 'lipud/kiribati.png',
         'piirkond': 'Austraalia ja Okeaania',
+        'fakt': 'Riik hõlmab kolme saarestikku ja koosneb 32 atollist.',
     },
     'Komoorid': {
         'lipp': 'lipud/comoros.png',
         'piirkond': 'Aafrika',
+        'fakt': 'Komoorid on üks väikseima rahvaarvuga riike, aga ka üks tihedaima asustusega.',
     },
     'Kongo Demokraatlik Vabariik': {
         'lipp': 'lipud/drc.png',
         'piirkond': 'Aafrika',
+        'fakt': 'Kinshasa ja Brazzaville on maailma lähimad pealinnad, vaid 5 km vahega.',
     },
     'Kongo Vabariik': {
         'lipp': 'lipud/republicofcongo.png',
         'piirkond': 'Aafrika',
+        'fakt': 'Brazzaville, Kongo pealinn, asub Kinshasast (Kongo DV pealinnast) vaid 5 km kaugusel.',
     },
     'Kosovo': {
         'lipp': 'lipud/kosovo.png',
         'piirkond': 'Euroopa',
+        'fakt': 'Pärast Serbiast iseseisvumist 2008. aastal on Kosovo Euroopa uusim riik.',
     },
     'Kreeka': {
         'lipp': 'lipud/greece.png',
         'piirkond': 'Euroopa',
+        'fakt': 'Ateenas on rohkem teatreid kui üheski teises linnas maailmas.',
     },
     'Kuuba': {
         'lipp': 'lipud/cuba.png',
         'piirkond': 'Põhja-Ameerika',
+        'fakt': 'Kuuba on Kariibi mere suurim saar — 109 820 km²',
     },
     'Kuveit': {
         'lipp': 'lipud/kuwait.png',
         'piirkond': 'Aasia',
+        'fakt': 'Kuveidis ei ole raudteid, mis teeb sellest ühe vähese riigi, kus raudteevõrgustik puudub.',
     },
     'Kõrgõzstan': {
         'lipp': 'lipud/kyrgyzstan.png',
         'piirkond': 'Aasia',
+        'fakt': 'Kumõss ehk kääritatud hobusepiim on Kõrgõzstani rahvusjook.',
     },
     'Küpros': {
         'lipp': 'lipud/cyprus.png',
         'piirkond': 'Euroopa',
+        'fakt': 'Küpros oli esimene riik maailmas, kes pani oma kontuuri riigilipule.',
     },
     'Laos': {
         'lipp': 'lipud/laos.png',
