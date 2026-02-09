@@ -258,7 +258,7 @@ riigid = {
     'Guatemala': {
         'lipp': 'lipud/guatemala.png',
         'piirkond': 'Põhja-Ameerika',
-        'fakt': 'Arvatakse, et esimene šokolaaditahvel valmistati Guatemalas.'
+        'fakt': 'Arvatakse, et esimene šokolaaditahvel valmistati Guatemalas.',
     },
     'Guinea': {
         'lipp': 'lipud/guinea.png',
@@ -333,7 +333,7 @@ riigid = {
     'Iraan': {
         'lipp': 'lipud/iran.png',
         'piirkond': 'Aasia',
-        'fakt': '2007. aastal pidasid Iraani ametnikud spioneerimise eest kinni 14 oravat.'
+        'fakt': '2007. aastal pidasid Iraani ametnikud spioneerimise eest kinni 14 oravat.',
     },
     'Island': {
         'lipp': 'lipud/iceland.png',
@@ -368,7 +368,7 @@ riigid = {
     'Kambodža': {
         'lipp': 'lipud/cambodia.png',
         'piirkond': 'Aasia',
-        'fakt': 'Angkor Wat on maailma suurim religioosne ehitis — selle pindala on 1 626 000 m²',
+        'fakt': 'Angkor Wat on maailma suurim religioosne ehitis — selle pindala on 1 626 000 m².',
     },
     'Kamerun': {
         'lipp': 'lipud/cameroon.png',
@@ -433,7 +433,7 @@ riigid = {
     'Kuuba': {
         'lipp': 'lipud/cuba.png',
         'piirkond': 'Põhja-Ameerika',
-        'fakt': 'Kuuba on Kariibi mere suurim saar — 109 820 km²',
+        'fakt': 'Kuuba on Kariibi mere suurim saar — 109 820 km².',
     },
     'Kuveit': {
         'lipp': 'lipud/kuwait.png',
@@ -453,114 +453,142 @@ riigid = {
     'Laos': {
         'lipp': 'lipud/laos.png',
         'piirkond': 'Aasia',
+        'fakt': 'Läbi Laose voolab Mekongi jõgi, mis on Kagu-Aasia pikim jõgi.',
     },
     'Leedu': {
         'lipp': 'lipud/lithuania.png',
         'piirkond': 'Euroopa',
+        'fakt': '14. sajandi lõpus oli Leedu Euroopa suurim riik.',
     },
     'Lesotho': {
         'lipp': 'lipud/lesotho.png',
         'piirkond': 'Aafrika',
+        'fakt': 'Kogu riik asub merepinnast kõrgemal kui 1000 m.',
     },
     'Libeeria': {
         'lipp': 'lipud/liberia.png',
         'piirkond': 'Aafrika',
+        'fakt': 'George Weah, kellest sai 2018. aastal Libeeria president, oli endine elukutseline jalgpallur.',
     },
     'Liechtenstein': {
         'lipp': 'lipud/liechtenstein.png',
         'piirkond': 'Euroopa',
+        'fakt': '2001. aastal ähvardas prints riigi Bill Gatesile maha müüa.',
     },
     'Liibanon': {
         'lipp': 'lipud/lebanon.png',
         'piirkond': 'Aasia',
+        'fakt': 'Liibanon on üks vanimaid pidevalt kasutusel olevaid riiginimesid, mis pärineb antiikajast.',
     },
     'Liibüa': {
         'lipp': 'lipud/libya.png',
         'piirkond': 'Aafrika',
+        'fakt': 'Aastatel 1977-2011 oli Liibüa lipp üleni roheline.',
     },
     'Luksemburg': {
         'lipp': 'lipud/luxembourg.png',
         'piirkond': 'Euroopa',
+        'fakt': 'Vaatamata oma väiksusele on riigil maailma kõrgeim SKT elaniku kohta',
     },
     'Lõuna-Aafrika Vabariik': {
         'lipp': 'lipud/southafrica.png',
         'piirkond': 'Aafrika',
+        'fakt': 'Lõuna-Aafrika Vabariigis on kolm pealinna — Kaplinn, Bloemfontein ja Pretoria.',
     },
     'Lõuna-Korea': {
         'lipp': 'lipud/southkorea.png',
         'piirkond': 'Aasia',
+        'fakt': 'Numbrit 4 peetakse õnnetuks numbriks, kuna selle hääldus on sarnane sõnaga "surm".',
     },
     'Lõuna-Sudaan': {
         'lipp': 'lipud/southsudan.png',
         'piirkond': 'Aafrika',
+        'fakt': 'Lõuna-Sudaan on maailma uusim riik, see saavutas iseseisvuse 2011. aastal.',
     },
     'Läti': {
         'lipp': 'lipud/latvia.png',
         'piirkond': 'Euroopa',
+        'fakt': 'Vaatamata pikale rannajoonele pole riigil ühtegi saart.',
     },
     'Madagaskar': {
         'lipp': 'lipud/madagascar.png',
         'piirkond': 'Aafrika',
+        'fakt': 'Madagaskar on tuntud kõrgete ahvileivapuude poolest, mis võivad kasvada kuni 30 meetri kõrguseks.',
     },
     'Malaisia': {
         'lipp': 'lipud/malaysia.png',
         'piirkond': 'Aasia',
+        'fakt': 'Tänaseni on Petronase tornid Kuala Lumpuris maailma kõrgeimad kaksikhooned.',
     },
     'Malawi': {
         'lipp': 'lipud/malawi.png',
         'piirkond': 'Aafrika',
+        'fakt': 'Umbes 20% riigist hõlmab Malawi järv, kus elab rohkem mageveekalu kui üheski teises järves maailmas.',
     },
     'Maldiivid': {
         'lipp': 'lipud/maldives.png',
         'piirkond': 'Aasia',
+        'fakt': 'Maldiivid on maailma madalaimal asuv riik, see asub keskmiselt umbes 2 meetrit merepinnast kõrgemal.',
     },
     'Mali': {
         'lipp': 'lipud/mali.png',
         'piirkond': 'Aafrika',
+        'fakt': 'Djenne\'i mošee on maailma suurim saviehitis.',
     },
     'Malta': {
         'lipp': 'lipud/malta.png',
         'piirkond': 'Euroopa',
+        'fakt': 'Maltal on 450 000 elaniku kohta registreeritud üle 300 000 auto.',
     },
     'Maroko': {
         'lipp': 'lipud/morocco.png',
         'piirkond': 'Aafrika',
+        'fakt': 'Kairaouine\'i mošee asutati aastal 859 ja seal asub al-Qarawiyyini ülikool, maailma esimene ülikool.',
     },
     'Marshalli Saared': {
         'lipp': 'lipud/marshallislands.png',
         'piirkond': 'Austraalia ja Okeaania',
+        'fakt': '2011. aastal lõi Marshalli Saarte Vabariik maailma suurima haide kaitseala.',
     },
     'Mauritaania': {
         'lipp': 'lipud/mauritania.png',
         'piirkond': 'Aafrika',
+        'fakt': 'Mauritaania oli viimane riik, mis orjanduse seaduslikult kaotas — 2007. aastal.',
     },
     'Mauritius': {
         'lipp': 'lipud/mauritius.png',
         'piirkond': 'Aafrika',
+        'fakt': 'Mauritiusel on Aafrika kõrgeim rahvastikutihedus.',
     },
     'Mehhiko': {
         'lipp': 'lipud/mexico.png',
         'piirkond': 'Põhja-Ameerika',
+        'fakt': 'Mehhiko pealinn México vajub, hinnanguliselt on see langus kuni 50 cm aastas.'
     },
     'Mikroneesia': {
         'lipp': 'lipud/micronesia.png',
         'piirkond': 'Austraalia ja Okeaania',
+        'fakt': 'Mikroneesia pindala on vaid 702 km², kuid riik on hajutatud ligi 3 miljoni km² suurusele ookeanialale.',
     },
     'Moldova': {
         'lipp': 'lipud/moldova.png',
         'piirkond': 'Euroopa',
+        'fakt': 'Mileștii Mici küla veinikeldrid on kokku 250 km pikad.',
     },
     'Monaco': {
         'lipp': 'lipud/monaco.png',
         'piirkond': 'Euroopa',
+        'fakt': 'Monaco on maailma kõige tihedamalt asustatud riik.',
     },
     'Mongoolia': {
         'lipp': 'lipud/mongolia.png',
         'piirkond': 'Aasia',
+        'fakt': 'Ulaanbaatar on maailma külmim pealinn — keskmine temperatuur on -1,3°.',
     },
     'Montenegro': {
         'lipp': 'lipud/montenegro.png',
         'piirkond': 'Euroopa',
+        'fakt': 'Euroopa vanim oliivipuu asub Montenegros.',
     },
     'Mosambiik': {
         'lipp': 'lipud/mozambique.png',
