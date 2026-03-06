@@ -593,46 +593,57 @@ riigid = {
     'Mosambiik': {
         'lipp': 'lipud/mozambique.png',
         'piirkond': 'Aafrika',
+        'fakt': 'Lipp on üks kahest riigilipust, millel on kujutatud tulirelva.',
     },
     'Myanmar': {
         'lipp': 'lipud/myanmar.png',
         'piirkond': 'Aasia',
+        'fakt': '1989. aastal muutis Birma ametlikult oma nime Myanmariks, kuid on endiselt valitsusi, kes seda muudatust ei tunnista.',
     },
     'Namiibia': {
         'lipp': 'lipud/namibia.png',
         'piirkond': 'Aafrika',
+        'fakt': 'Namiibia suurim liivaluide, Dune 7, ulatub 383 meetrini.',
     },
     'Nauru': {
         'lipp': 'lipud/nauru.png',
         'piirkond': 'Austraalia ja Okeaania',
+        'fakt': 'Vaid 21 km² pindalaga Nauru on maailma suuruselt kolmas väikseim riik ja väikseim saareriik.',
     },
     'Nepal': {
         'lipp': 'lipud/nepal.png',
         'piirkond': 'Aasia',
+        'fakt': 'Nepal on ainus riik, mille lipp ei ole nelinurkne.',
     },
     'Nicaragua': {
         'lipp': 'lipud/nicaragua.png',
         'piirkond': 'Põhja-Ameerika',
+        'fakt': '19. sajandi lõpus oli Nicaragua järv Panama kanali asemel alternatiivne koht Atlandi ja Vaikse ookeani ühendamiseks.',
     },
     'Niger': {
         'lipp': 'lipud/niger.png',
         'piirkond': 'Aafrika',
+        'fakt': 'Neli viiendikku Nigerist on kõrb, mis teeb sellest ühe kuumima riigi maailmas.',
     },
     'Nigeeria': {
         'lipp': 'lipud/nigeria.png',
         'piirkond': 'Aafrika',
+        'fakt': 'Kuni 1991. aastani oli Nigeeria suurim linn Lagos selle pealinn, kuid siis viidi see Abujasse.'
     },
     'Norra': {
         'lipp': 'lipud/norway.png',
         'piirkond': 'Euroopa',
+        'fakt': 'Sognefjord, Norra pikim ja sügavaim fjord, on 205 km pikk.',
     },
     'Omaan': {
         'lipp': 'lipud/oman.png',
         'piirkond': 'Aasia',
+        'fakt': 'Omaan on ainus riik, mille nimi algab tähega O.',
     },
     'Paapua Uus-Guinea': {
         'lipp': 'lipud/papuanewguinea.png',
         'piirkond': 'Austraalia ja Okeaania',
+        'fakt': 'Paapua Uus-Guineas räägitakse üle 800 erineva keele, kuna riigis elab vähemalt 750 hõimu.',
     },
     'Pakistan': {
         'lipp': 'lipud/pakistan.png',
@@ -642,78 +653,97 @@ riigid = {
     'Palestiina': {
         'lipp': 'lipud/palestine.png',
         'piirkond': 'Aasia',
+        'fakt': 'Palestiina kahel piirkonnal (Gaza ja Läänekallas) ei ole geograafilist piiri.',
     },
     'Panama': {
         'lipp': 'lipud/panama.png',
         'piirkond': 'Põhja-Ameerika',
+        'fakt': 'Panama on ainus riik, kus saab samast kohast näha päikesetõusu Vaikse ookeani ja päikeseloojangut Atlandi ookeani kohal.',
     },
     'Paraguay': {
         'lipp': 'lipud/paraguay.png',
         'piirkond': 'Lõuna-Ameerika',
+        'fakt': 'Paraguay kasutab elektri tootmiseks peaaegu täielikult hüdroenergiat.',
     },
     'Peruu': {
         'lipp': 'lipud/peru.png',
         'piirkond': 'Lõuna-Ameerika',
+        'fakt': 'Amazonase jõgi saab alguse Peruu Andidest.',
     },
     'Poola': {
         'lipp': 'lipud/poland.png',
         'piirkond': 'Euroopa',
+        'fakt': 'Malborki Saksa Ordu loss Poolas on pindalalt maailma suurim loss.',
     },
     'Portugal': {
         'lipp': 'lipud/portugal.png',
         'piirkond': 'Euroopa',
+        'fakt': 'Portugali piirid on jäänud samaks alates 13. sajandist.',
     },
     'Prantsusmaa': {
         'lipp': 'lipud/france.png',
         'piirkond': 'Euroopa',
+        'fakt': 'Eiffeli torn pidi olema ajutine, see ehitati 1889. aasta maailmanäituse jaoks Pariisis.',
     },
     'Põhja-Korea': {
         'lipp': 'lipud/northkorea.png',
         'piirkond': 'Aasia',
+        'fakt': 'Põhja-Koreas asub maailma suurim staadion. Rŭngrado 1. Mai staadion mahutab 150 000 inimest.',
     },
     'Põhja-Makedoonia': {
         'lipp': 'lipud/northmacedonia.png',
         'piirkond': 'Euroopa',
+        'fakt': 'Pärast 30-aastast vaidlust nime üle Kreekaga muutis riik 2019. aastal oma nime Makedooniast Põhja-Makedooniaks.',
     },
     'Roheneemesaared': {
         'lipp': 'lipud/capeverde.png',
         'piirkond': 'Aafrika',
+        'fakt': '90% riigi toidust imporditakse, kuna vaid kümnendik maast sobib põllumajanduseks.',
     },
     'Rootsi': {
         'lipp': 'lipud/sweden.png',
         'piirkond': 'Euroopa',
+        'fakt': 'Rootsi linnas Kirunas asub maailma suurim maa-alune rauamaagi kaevandus.',
     },
     'Rumeenia': {
         'lipp': 'lipud/romania.png',
         'piirkond': 'Euroopa',
+        'fakt': 'Bukaresti parlamendipalee on maailma raskeim hoone, kaaludes umbes 4,1 miljonit tonni.',
     },
     'Rwanda': {
         'lipp': 'lipud/rwanda.png',
         'piirkond': 'Aafrika',
+        'fakt': 'Vaatamata tihedale rahvastikule on Rwanda Aafrika puhtaim riik.',
     },
     'Saint Lucia': {
         'lipp': 'lipud/stlucia.png',
         'piirkond': 'Põhja-Ameerika',
+        'fakt': 'Saint Lucia rannajoon on vaid 158 km pikk, kuigi tegemist on saareriigiga.',
     },
     'Saint Vincent ja Grenadiinid': {
         'lipp': 'lipud/stvincentgrenadines.png',
         'piirkond': 'Põhja-Ameerika',
+        'fakt': 'Seal filmiti mitu stseeni filmidest "Kariibi mere piraadid".',
     },
     'Saksamaa': {
         'lipp': 'lipud/germany.png',
         'piirkond': 'Euroopa',
+        'fakt': 'Saksamaal on üle 20 000 lossi.',
     },
     'Saint Kitts ja Nevis': {
         'lipp': 'lipud/stkittsandnevis.png',
         'piirkond': 'Põhja-Ameerika',
+        'fakt': 'Riik koosneb kahest saarest — Saint Kittsist ja Nevisest.',
     },
     'Saalomoni Saared': {
         'lipp': 'lipud/solomonislands.png',
         'piirkond': 'Austraalia ja Okeaania',
+        'fakt': 'Riigikeel on inglise keel, kuid seda räägib vaid umbes 1-2% elanikkonnast.',
     },
     'Soome':{
         'lipp': 'lipud/finland.png',
         'piirkond': 'Euroopa',
+        'fakt': 'Soomet on kaheksa aastat järjest peetud maailma õnnelikumate inimestega riigiks.',
     },
     'Samoa': {
         'lipp': 'lipud/samoa.png',
