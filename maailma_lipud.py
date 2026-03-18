@@ -1,6 +1,8 @@
 import tkinter as tk # tkinter UI jaoks
 import random # random
 from PIL import Image, ImageTk # piltide jaoks vajalik pillow
+import requests # netist piltide saamiseks
+from io import BytesIO # pildi avamiseks mälust
 from riigid import riigid # riikide nimekiri
 
 root = tk.Tk() # aken
@@ -78,9 +80,16 @@ raundi_label.pack(pady=(10, 0))
 
 # ekraanile ilmub pillow abil lipp
 def naita_lipp(riik):
-    lipp_file = riigid[riik]['lipp']
+    url = riigid[riik]['lipp']
 
-    img = Image.open(lipp_file)
+    # pilt internetist
+    try:
+        response = requests.get(url, timeout=10)
+        img_data = BytesIO(response.content)
+        img = Image.open(img_data)
+    except Exception as e:
+        print(f"Viga pildi laadimisel: {e}")
+        return
 
     korgus = 180
 
