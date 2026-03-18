@@ -603,7 +603,7 @@ riigid = {
     'Namiibia': {
         'lipp': 'lipud/namibia.png',
         'piirkond': 'Aafrika',
-        'fakt': 'Namiibia suurim liivaluide, Dune 7, ulatub 383 meetrini.',
+        'fakt': 'Namiibia suurim liivaluide, Dune 7, on 383 meetri kõrgune.',
     },
     'Nauru': {
         'lipp': 'lipud/nauru.png',
@@ -653,7 +653,7 @@ riigid = {
     'Palestiina': {
         'lipp': 'lipud/palestine.png',
         'piirkond': 'Aasia',
-        'fakt': 'Palestiina kahel piirkonnal (Gaza ja Läänekallas) ei ole geograafilist piiri.',
+        'fakt': 'Palestiina kahel piirkonnal (Gaza ja Läänekallas) ei ole omavahel geograafilist piiri.',
     },
     'Panama': {
         'lipp': 'lipud/panama.png',
@@ -748,190 +748,237 @@ riigid = {
     'Samoa': {
         'lipp': 'lipud/samoa.png',
         'piirkond': 'Austraalia ja Okeaania',
+        'fakt': 'Vaid kahel Samoa üheksast saarest elab üle 95% elanikkonnast.',
     },
     'Sambia': {
         'lipp': 'lipud/zambia.png',
         'piirkond': 'Aafrika',
+        'fakt': 'Sambias on võimalik näha lõvisid, leoparde, ninasarvikuid, elevante ja pühvleid.',
     },
     'San Marino': {
         'lipp': 'lipud/sanmarino.png',
         'piirkond': 'Euroopa',
+        'fakt': 'San Marinol on maailma halvim jalgpallimeeskond.',
     },
     'São Tomé ja Príncipe': {
         'lipp': 'lipud/saotome.png',
         'piirkond': 'Aafrika',
+        'fakt': 'São Tomest sai esimene Aafrika riik, mis võttis 1990. aastal kasutusele mitmeparteilise demokraatia.',
     },
     'Saudi Araabia': {
         'lipp': 'lipud/saudiarabia.png',
         'piirkond': 'Aasia',
+        'fakt': 'Saudi Araabia omab 17% maailma naftavarudest ja on suurim toornafta eksportija.',
     },
     'Senegal': {
         'lipp': 'lipud/senegal.png',
         'piirkond': 'Aafrika',
+        'fakt': 'Senegalis asub Aafrika kõrgeim kuju. Aafrika renessansi monumendi lõid Põhja-Korea kunstnikud.',
     },
     'Serbia': {
         'lipp': 'lipud/serbia.png',
         'piirkond': 'Euroopa',
+        'fakt': 'Serbia on üks suurimatest vaarikatootjatest maailmas, selle aastane saagikus on 60 000-85 000 tonni vaarikaid.',
     },
     'Seišellid': {
         'lipp': 'lipud/seychelles.png',
         'piirkond': 'Aafrika',
+        'fakt': 'Seišellide pealinn Victoria on maailma väikseim pealinn, pindalaga veidi üle 21 ruutkilomeetri.',
     },
     'Sierra Leone': {
         'lipp': 'lipud/sierraleone.png',
         'piirkond': 'Aafrika',
+        'fakt': 'Sierra Leone on kuulus oma teemandikaevanduste poolest, millel on olnud oluline roll riigi majanduse arengus.',
     },
     'Singapur': {
         'lipp': 'lipud/singapore.png',
         'piirkond': 'Aasia',
+        'fakt': 'Singapuri Bukit Timah looduskaitsealal on rohkem puuliike kui kogu Põhja-Ameerika mandril.',
     },
     'Slovakkia': {
         'lipp': 'lipud/slovakia.png',
         'piirkond': 'Euroopa',
+        'fakt': 'Euroopa lähimad naaberpealinnad on Bratislava ja Viin, mis asuvad teineteisest vaid 60 km kaugusel.',
     },
     'Sloveenia': {
         'lipp': 'lipud/slovenia.png',
         'piirkond': 'Euroopa',
+        'fakt': '53,6 protsenti Sloveenia maast on kaitse all.',
     },
     'Somaalia': {
         'lipp': 'lipud/somalia.png',
         'piirkond': 'Aafrika',
+        'fakt': 'Somaalial on Aafrika pikim rannajoon, mis kulgeb mööda India ookeani 3333 km.',
     },
     'Sri Lanka': {
         'lipp': 'lipud/srilanka.png',
         'piirkond': 'Aasia',
+        'fakt': 'Sri Lanka on suur tee tootja ja eksportija — üle miljoni 22 miljonist inimesest töötab teetööstuses.',
     },
     'Sudaan': {
         'lipp': 'lipud/sudan.png',
         'piirkond': 'Aafrika',
+        'fakt': 'Sudaanis on üle 200 püramiidi, mis on peaaegu kaks korda rohkem kui Egiptuses (118).',
     },
     'Suriname': {
         'lipp': 'lipud/suriname.png',
         'piirkond': 'Lõuna-Ameerika',
+        'fakt': 'Suriname on nii suuruse kui ka rahvaarvu poolest Lõuna-Ameerika väikseim iseseisev riik.',
     },
     'Suurbritannia': {
         'lipp': 'lipud/uk.png',
         'piirkond': 'Euroopa',
+        'fakt': 'Seal asub Euroopa pikima nimega linn: Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch',
     },
     'Süüria': {
         'lipp': 'lipud/syria.png',
         'piirkond': 'Aasia',
+        'fakt': 'Süüria pealinn on Damaskus, mis on maailma pikim pidevalt asustatud linn, asutatud umbes 3. aastatuhandel eKr.',
     },
     'Šveits': {
         'lipp': 'lipud/switzerland.png',
         'piirkond': 'Euroopa',
+        'fakt': 'Kuigi Šveitsil pole ametlikku pealinna, peetakse selleks sageli Berni, sest seal asub parlament.',
     },
     'Taani': {
         'lipp': 'lipud/denmark.png',
-        'piirkond': 'Euroopa'
+        'piirkond': 'Euroopa',
+        'fakt': 'Taani lipp, mida esmakordselt tunnustati 1219. aastal, on maailma vanim riigilipp.',
     },
     'Tadžikistan': {
         'lipp': 'lipud/tajikistan.png',
         'piirkond': 'Aasia',
+        'fakt': 'Hinnanguliselt voolab Tadžikistani territooriumilt läbi ligi 1000 jõge.',
     },
     'Tai': {
         'lipp': 'lipud/thailand.png',
         'piirkond': 'Aasia',
+        'fakt': 'Tai on ainus Kagu-Aasia riik, mida ükski Euroopa suurvõim pole kunagi koloniseerinud.',
     },
     'Taiwan': {
         'lipp': 'lipud/taiwan.png',
         'piirkond': 'Aasia',
+        'fakt': 'Taiwani peetakse maailma suurima mägede kontsentratsiooniga saareks. 2/3 saarest on kaetud mägedega.',
     },
     'Tansaania': {
         'lipp': 'lipud/tanzania.png',
         'piirkond': 'Aafrika',
+        'fakt': 'Tansaanias asuv Kilimanjaro on Aafrika kõrgeim mägi.',
     },
     'Tšaad': {
         'lipp': 'lipud/chad.png',
         'piirkond': 'Aafrika',
+        'fakt': 'Riik on nime saanud Tšaadi järve järgi, mis on mageveejärv, mille pindala on alates 1963. aastast kahanenud 95%.',
     },
     'Tšehhi': {
         'lipp': 'lipud/czechia.png',
         'piirkond': 'Euroopa',
+        'fakt': 'Sõna "robot" võttis kasutusele tšehhi kirjanik Karel Čapek oma 1920. aasta näidendis "R.U.R.".',
     },
     'Tšiili': {
         'lipp': 'lipud/chile.png',
         'piirkond': 'Lõuna-Ameerika',
+        'fakt': 'Tšiilis asub maailma suurim bassein, mis on 20 olümpiasuuruses basseini pikkune.',
     },
     'Trinidad ja Tobago': {
         'lipp': 'lipud/trinidadandtobago.png',
         'piirkond': 'Põhja-Ameerika',
+        'fakt': 'Trinidadi saarel asub maailma suurim looduslik asfaldi leiukoht.',
     },
     'Tuneesia': {
         'lipp': 'lipud/tunisia.png',
         'piirkond': 'Aafrika',
+        'fakt': 'Tuneesias asub Aafrika põhjapoolseim punkt.',
     },
     'Togo': {
         'lipp': 'lipud/togo.png',
         'piirkond': 'Aafrika',
+        'fakt': 'Riigil on vaid 51 km rannajoont, kuigi see on üle 56 000 km² suur.',
     },
     'Tonga': {
         'lipp': 'lipud/tonga.png',
         'piirkond': 'Austraalia ja Okeaania',
+        'fakt': 'Tonga tähestikus on ainult 17 tähte.',
     },
     'Türgi': {
         'lipp': 'lipud/turkiye.png',
         'piirkond': 'Euroopa',
+        'fakt': 'Sõna "türkiis" pärineb prantsuse keelest "Turquois", mis tähendab "türgi".',
     },
     'Türkmenistan': {
         'lipp': 'lipud/turkmenistan.png',
         'piirkond': 'Aasia',
+        'fakt': 'Darvaza on gaasikraater Türkmenistanis, mis on pärast 1971. aastal toimunud kaevandusõnnetust põlenud üle 50 aasta.',
     },
     'Tuvalu': {
         'lipp': 'lipud/tuvalu.png',
         'piirkond': 'Austraalia ja Okeaania',
+        'fakt': 'Kõikide riikide kodanikud saavad Tuvalule reisida ilma viisat taotlemata.',
     },
     'Uganda': {
         'lipp': 'lipud/uganda.png',
         'piirkond': 'Aafrika',
+        'fakt': 'Peaaegu pool Victoria järvest, Aafrika suurimast järvest, asub Ugandas.',
     },
     'Ukraina': {
         'lipp': 'lipud/ukraine.png',
         'piirkond': 'Euroopa',
+        'fakt': 'Ukraina on üks maailma suurimaid päevalilleseemnete tootjaid.',
     },
     'Ungari': {
         'lipp': 'lipud/hungary.png',
         'piirkond': 'Euroopa',
+        'fakt': 'Ungari tähestik koosneb 44 tähest.',
     },
     'Uruguay': {
         'lipp': 'lipud/uruguay.png',
         'piirkond': 'Lõuna-Ameerika',
+        'fakt': 'Uruguay on Ladina-Ameerika kõige turvalisem riik.',
     },
     'Usbekistan': {
         'lipp': 'lipud/uzbekistan.png',
         'piirkond': 'Aasia',
+        'fakt': 'Usbekistanil pole rannajoont ja kõik seda ümbritsevad riigid on samuti sisemaal.',
     },
     'Uus-Meremaa': {
         'lipp': 'lipud/newzealand.png',
         'piirkond': 'Austraalia ja Okeaania',
+        'fakt': 'Uus-Meremaal on iga inimese kohta umbes kuus lammast.',
     },
     'Vanuatu': {
         'lipp': 'lipud/vanuatu.png',
         'piirkond': 'Austraalia ja Okeaania',
+        'fakt': 'Vanuatut külastab igal aastal umbes 300 000 turisti, umbes sama palju on saartel elanikke.',
     },
     'Venezuela': {
         'lipp': 'lipud/venezuela.png',
         'piirkond': 'Lõuna-Ameerika',
+        'fakt': 'Riigi nimi tuleb itaaliakeelsest sõnast, mis tähendab "väike Veneetsia".',
     },
     'Valgevene': {
         'lipp': 'lipud/belarus.png',
         'piirkond': 'Euroopa',
+        'fakt': 'Valgevene Rahvusraamatukogu on 74 meetrit kõrge ja sellel on 23 korrust.',
     },
     'Venemaa': {
         'lipp': 'lipud/russia.png',
         'piirkond': 'Aasia',
+        'fakt': '20% kõigist maailma puudest asub Venemaal, neist enamik Siberis.',
     },
     'Vietnam': {
         'lipp': 'lipud/vietnam.png',
         'piirkond': 'Aasia',
+        'fakt': 'Vietnamis asub maailma suurim koobas — Son Doong',
     },
     'Vatikan': {
         'lipp': 'lipud/vatican.png',
         'piirkond': 'Euroopa',
+        'fakt': 'Vaid 0,44 ruutkilomeetri ja umbes 825 elanikuga Vatikan on maailma väikseim riik.',
     },
     'Zimbabwe': {
         'lipp': 'lipud/zimbabwe.png',
         'piirkond': 'Aafrika',
+        'fakt': '2009. aastal olid riigis saja triljoni dollari suuruse rahatähed, kuigi nende väärtus oli vaid umbes nelikümmend senti.',
     },
 
 }
