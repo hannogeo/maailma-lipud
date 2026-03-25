@@ -378,7 +378,7 @@ riigid = {
     'Kanada': {
         'lipp': 'https://flagcdn.com/w320/ca.png',
         'piirkond': 'Põhja-Ameerika',
-        'fakt': 'Korvpalli lõi kanadalane James Naismith 1891. aastal.',
+        'fakt': 'Korvpalli leiutas kanadalane James Naismith 1891. aastal.',
     },
     'Kasahstan': {
         'lipp': 'https://flagcdn.com/w320/kz.png',
